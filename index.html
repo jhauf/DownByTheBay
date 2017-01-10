@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>down by the bay</title>
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="icon" href="./app/assets/images/icon.png"  type="image/png" >
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsE3TdmfuBHHlHXZUW3y82I2mqDHdTMrw&libraries=places">
+
+    </script>
+    <script type="text/javascript" src="./frontend/bundle.js"/></script>
+    <link rel="stylesheet" type="text/css" href="./app/assets/stylesheets/places.css">
+  </head>
+  <body>
+
+    <div class="header">
+      <img id="logo" src="./app/assets/images/logo.png" alt="" />
+      <h1> down by the bay </h1>
+      <img id="logo" src="./app/assets/images/logo.png" alt="" />
+    </div>
+
+    <div class="all">
+      <div class="left">
+        <div class="search">
+        <input id="input" type="text" value=""/>
+        <input id="enter" type="button" value="search"/>
+         </div>
+        <div id="results">
+      </div>
+    </div>
+
+    <div class="right">
+      <div id="map"></div>
+    </div>
+  </div>
+ </body>
+</html>
