@@ -3,7 +3,7 @@
 ###[live](https://jhauf.github.io/DownByTheBay/)
 
 Down by the Bay is an interactive map built with `JavaScript`, `HTML5`, `CSS3` and the `Google Maps Places` library.
- The search results display name, address, rating and hours and are connected to the markers. When the user hovers over a result, the info window appears over the corresponding marker. In addition, a loader appears while the map is loading.
+ The search results display name, address, rating and hours and are connected to the markers. When the user hovers over a result, the info window appears over the corresponding marker. In addition, a loader appears while the map loads.
 
 ![Down by the Bay](app/assets/images/screenshot.png)
 
